@@ -1,0 +1,25 @@
+  GNU nano 6.2                                                      scripttt.sh *                                                             
+
+#!/bin/bash
+apnc=$(uci get network.ppp.apn)
+if ["$apnc = tdd1.acoalquiler"];
+then
+uci set openvpn.client_prueba2.enable=1
+fi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
